@@ -1,0 +1,162 @@
+/* line 8, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+* {
+  position: relative; }
+
+/* line 18, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+html, body {
+  padding: 0px;
+  margin: 0px; }
+
+/* line 23, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.max_width {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 29, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.header {
+  height: 300px;
+  background-color: #f3f7f7; }
+  /* line 32, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .header h1 {
+    font-size: 100px;
+    margin: 0px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Lobster";
+    font-weight: 600;
+    letter-spacing: 13px;
+    color: #232952; }
+
+/* line 45, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.content {
+  font-family: Microsoft JhengHei;
+  padding: 50px; }
+  /* line 49, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h5 {
+    margin-top: 10px; }
+  /* line 52, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .title_hr {
+    border: solid 3px #ffb336;
+    width: 100px; }
+  /* line 56, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h1 {
+    font-size: 40px; }
+  /* line 59, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h2 {
+    font-size: 30px; }
+  /* line 62, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h3 {
+    font-size: 20px; }
+  /* line 65, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h1.small_english {
+    font-size: 24px; }
+  /* line 68, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h2.small_english {
+    font-size: 16px; }
+  /* line 71, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content h3.small_english {
+    font-size: 12px; }
+  /* line 74, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .small_english {
+    margin-top: -15px; }
+  /* line 77, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .button {
+    padding: 5px 25px;
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 1px #292b39;
+    border-radius: 6px;
+    box-shadow: -3px 5px 13px rgba(0, 0, 0, 0.7); }
+  /* line 88, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .button_blue {
+    background-color: #292b39;
+    color: #f3f7f7;
+    font-weight: 500; }
+  /* line 93, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .button_yellow {
+    background-color: #ffb336;
+    color: #292b39; }
+  /* line 97, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content .color_chip {
+    display: inline-block;
+    margin-right: 25px; }
+    /* line 100, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block, .content .color_chip .color_tag {
+      display: inline-block;
+      vertical-align: middle; }
+    /* line 104, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_tag {
+      width: 70px; }
+    /* line 107, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block {
+      width: 35px;
+      height: 35px;
+      border: solid 2px white; }
+    /* line 112, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block_yellow {
+      background-color: #ffb336; }
+    /* line 115, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block_blue {
+      background-color: #292b39; }
+    /* line 118, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block_white {
+      background-color: #f3f7f7; }
+    /* line 121, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+    .content .color_chip .color_block_grey {
+      background-color: #232952; }
+
+/* line 127, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.content_grey {
+  background-color: #232952;
+  color: #f3f7f7; }
+  /* line 131, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_grey .small_english {
+    color: #ffb336; }
+  /* line 134, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_grey h1, .content_grey h2, .content_grey h3 {
+    font-weight: 500; }
+  /* line 137, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_grey .button {
+    border-color: white; }
+  /* line 140, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_grey .button_white {
+    background-color: #f3f7f7;
+    color: #292b39; }
+
+/* line 146, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.content_blue {
+  background-color: #292b39;
+  color: #f3f7f7; }
+  /* line 150, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_blue .small_english {
+    color: #ffb336; }
+  /* line 153, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_blue h1, .content_blue h2, .content_blue h3 {
+    font-weight: 500; }
+  /* line 156, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_blue .button {
+    border-color: white; }
+  /* line 159, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_blue .button_white {
+    background-color: #f3f7f7;
+    color: #292b39; }
+
+/* line 165, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+.content_white {
+  background-color: #f3f7f7;
+  color: #232952;
+  /*& h1, & h2, & h3 {
+        font-weight: 500;
+    }*/ }
+  /* line 169, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_white .small_english {
+    color: #292b39; }
+  /* line 173, C:/Users/kappa/Desktop/HTML/Exercise/Visual Guide/assets/css/index.scss */
+  .content_white .color_chip .color_block {
+    border-color: #292b39; }
+
+/*# sourceMappingURL=index.css.map */
